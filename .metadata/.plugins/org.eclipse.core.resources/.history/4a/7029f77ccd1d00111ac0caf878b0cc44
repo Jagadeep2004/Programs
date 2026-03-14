@@ -1,0 +1,23 @@
+package StringConcepts;
+
+import java.util.Scanner;
+
+public class SanitizeTheLog {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter user : ");
+		String user = sc.nextLine();
+		
+		System.out.println("Enter password : ");
+		String password = sc.next();
+		
+		System.out.println("Enter IP : ");
+		String ip = sc.next();
+		
+		System.out.println("Enter status :");
+		String status = sc.next();
+	}
+
+}

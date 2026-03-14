@@ -1,0 +1,11 @@
+package StringConcepts;
+
+public class ValidateCorporateEmail {
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

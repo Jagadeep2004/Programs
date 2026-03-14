@@ -1,0 +1,62 @@
+package Assessment;
+
+class Customer{
+	private int customer_id;
+	private String customer_name;
+	private char customer_gender;
+	
+	Customer(int customer_id,String customer_name,char customer_gender){
+		this.customer_id = customer_id;
+		this.customer_name = customer_name;
+		this.customer_gender =customer_gender;
+	}
+
+	public int getId() {
+		return customer_id;
+	}
+
+	public String getName() {
+		return customer_name;
+	}
+
+	public char getGender() {
+		return customer_gender;
+	}
+		
+}
+class Account extends Customer{
+	private int account_id;
+	private double account_balance=0.0;
+	
+	Account(int customer_id,String customer_name,char customer_gender,int account_id,double account_balance){
+		super(customer_id,customer_name,customer_gender);
+		this.account_id=account_id;
+		this.account_balance=account_balance;
+	}
+
+	public int getAccount_id() {
+		return account_id;
+	}
+
+	public double getAccount_balance() {
+		return account_balance;
+	}
+
+	public void setAccount_balance(double account_balance) {
+		this.account_balance = account_balance;
+	}
+	
+	void amountWithdraw(double amount) {
+		this.account_balance=account_balance-amount;
+	}
+	
+}
+
+public class BankManagement {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
