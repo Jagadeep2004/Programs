@@ -2,6 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Java Basics\TestNG_Selenium"/>
+			<item value="D:\Java Basics\testingXmlDemo"/>
+			<item value="D:\Java Basics"/>
+			<item value="D:\emsLast"/>
+			<item value="D:\Selenium_Project"/>
+			<item value="D:\Library Management"/>
+			<item value="D:\New_Repo\Sample_Project"/>
 			<item value="D:\MavenProjectWithArchitype"/>
 			<item value="D:\MavenProject"/>
 			<item value="D:\darshan_Project"/>
@@ -28,13 +35,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.expleo.SampleMaven"/>
 		</list>
 		<list key="groupId">
-			<item value="org.expleo"/>
 		</list>
 		<list key="artifactId">
-			<item value="SampleMaven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -50,10 +54,18 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.testingXMDemo"/>
+			<item value="com.testingXMLDemo"/>
+			<item value="com.testingXmlDemo"/>
+			<item value="com.testingXml"/>
+			<item value="com.TestNG"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="testingXMLDemo"/>
+			<item value="testingXmlDemo"/>
+			<item value="TestNG_Selenium"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -76,5 +88,18 @@
 		<item key="height" value="665"/>
 		<item key="x" value="720"/>
 		<item key="y" value="0"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Event Management System\Event-Management-System"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
