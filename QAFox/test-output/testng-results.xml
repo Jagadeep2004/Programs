@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-10T23:18:19 IST" name="Default suite" finished-at="2026-05-10T23:18:42 IST" duration-ms="22780">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e17553a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-10T23:18:19 IST" name="Default test" finished-at="2026-05-10T23:18:42 IST" duration-ms="22780">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@5e17553a]" started-at="2026-05-10T23:18:19 IST" name="setUpClass" finished-at="2026-05-10T23:18:20 IST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52d0f583]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e17553a]" started-at="2026-05-10T23:18:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-10T23:18:27 IST" duration-ms="7507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Add To Cart with valid search keys"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["M_VIGNESHWARANN_5TH_MAY_QAFox_AddToCartFearure"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e17553a]" started-at="2026-05-10T23:18:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-10T23:18:39 IST" duration-ms="19043" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\jagad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54461}, goog:processID: 27248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54461/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14b4a4881555b7782f6f415da78cc2d4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\jagad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54461}, goog:processID: 27248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54461/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 14b4a4881555b7782f6f415da78cc2d4
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at actions.LoginActions.getLinkText(LoginActions.java:63)
+at stepdefinitions.LoginStepDefinition.the_link_should_appear_as(LoginStepDefinition.java:36)
+at ✽.the link should appear as "Edit your account information";(file:///C:/Users/jagad/Downloads/QAFox1/QAFox/src/test/resources/features/login.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e17553a]" started-at="2026-05-10T23:18:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-10T23:18:27 IST" duration-ms="6755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify registration with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["M_VIGNESHWARANN_5TH_MAY_QAFox_RegisterFearure"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@5e17553a]" started-at="2026-05-10T23:18:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-10T23:18:40 IST" duration-ms="20524" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["M_VIGNESHWARANN_5TH_MAY_QAFox_LoginFearure"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element found by By.xpath: //a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\jagad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54462}, goog:processID: 30356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54462/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f424b371ccaae94515a558f6ff19dc3d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href = "https://tutorialsninja.com/demo/index.php?route=account/edit"]"}.
+(tried for 15 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\jagad\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54462}, goog:processID: 30356, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54462/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f424b371ccaae94515a558f6ff19dc3d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+at actions.LoginActions.getLinkText(LoginActions.java:63)
+at stepdefinitions.LoginStepDefinition.the_link_should_appear_as(LoginStepDefinition.java:36)
+at ✽.the link should appear as "Edit your account information";(file:///C:/Users/jagad/Downloads/QAFox1/QAFox/src/test/resources/features/login.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5e17553a]" started-at="2026-05-10T23:18:40 IST" name="tearDownClass" finished-at="2026-05-10T23:18:42 IST" duration-ms="1662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

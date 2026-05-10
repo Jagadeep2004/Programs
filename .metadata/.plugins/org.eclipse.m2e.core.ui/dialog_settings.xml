@@ -2,9 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Java Basics\testingXMLDemo"/>
+			<item value="D:\Java Basics"/>
 			<item value="D:\Java Basics\TestNG_Selenium"/>
 			<item value="D:\Java Basics\testingXmlDemo"/>
-			<item value="D:\Java Basics"/>
 			<item value="D:\emsLast"/>
 			<item value="D:\Selenium_Project"/>
 			<item value="D:\Library Management"/>
@@ -54,8 +55,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.testingXMDemo"/>
 			<item value="com.testingXMLDemo"/>
+			<item value="com.testingXMDemo"/>
 			<item value="com.testingXmlDemo"/>
 			<item value="com.testingXml"/>
 			<item value="com.TestNG"/>
