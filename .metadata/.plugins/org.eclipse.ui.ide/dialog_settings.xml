@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\jagad\Downloads\QAFox1\QAFox"/>
 			<item value="C:\Users\jagad\OneDrive\Desktop\New folder\QAFox\QAFox"/>
 			<item value="D:\EMS2"/>
 			<item value="D:\CollectionsExamplePrograms"/>
